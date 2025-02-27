@@ -1,9 +1,8 @@
-const Hello = ({message,name}) =>{
-    console.log({message, name});
+const Hello = ({name,message}) =>{
     return(
         <div>
             <h1>
-                {message} {name}
+                {name} {message}
             </h1>
         </div>
     )
